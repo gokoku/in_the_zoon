@@ -68,7 +68,7 @@ class CircleView: UIView {
          self.layer.addSublayer(caShapeLayerForBase)
      }
      
-     private func drawValueCircle(rate:Double) {
+     func drawValueCircle(rate:Double) {
          let shapeFrame = CGRect.init(x: 0, y: 0, width: self.frame.width, height: self.frame.height)
          caShapeLayerForValue.frame = shapeFrame
          
