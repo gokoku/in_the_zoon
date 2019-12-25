@@ -16,6 +16,7 @@
 		5E61D36C23B203AB00684C4B /* CountDownTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D36B23B203AB00684C4B /* CountDownTimerTests.swift */; };
 		5E61D37723B203AB00684C4B /* CountDownTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D37623B203AB00684C4B /* CountDownTimerUITests.swift */; };
 		5E61D38523B204E500684C4B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D38423B204E500684C4B /* CircleView.swift */; };
+		5E750A4623B3381C00852E03 /* Chime1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E750A4523B3381C00852E03 /* Chime1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5E61D37623B203AB00684C4B /* CountDownTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownTimerUITests.swift; sourceTree = "<group>"; };
 		5E61D37823B203AB00684C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E61D38423B204E500684C4B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		5E750A4523B3381C00852E03 /* Chime1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chime1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		5E61D35323B2038500684C4B /* CountDownTimer */ = {
 			isa = PBXGroup;
 			children = (
+				5E750A4023B337C600852E03 /* Sounds */,
 				5E61D35423B2038500684C4B /* AppDelegate.swift */,
 				5E61D35623B2038600684C4B /* SceneDelegate.swift */,
 				5E61D35823B2038600684C4B /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				5E61D37823B203AB00684C4B /* Info.plist */,
 			);
 			path = CountDownTimerUITests;
+			sourceTree = "<group>";
+		};
+		5E750A4023B337C600852E03 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5E750A4523B3381C00852E03 /* Chime1.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E61D36123B203AB00684C4B /* LaunchScreen.storyboard in Resources */,
+				5E750A4623B3381C00852E03 /* Chime1.wav in Resources */,
 				5E61D35E23B203AB00684C4B /* Assets.xcassets in Resources */,
 				5E61D35C23B2038600684C4B /* Main.storyboard in Resources */,
 			);

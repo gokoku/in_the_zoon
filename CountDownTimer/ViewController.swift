@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -27,9 +28,13 @@ class ViewController: UIViewController {
                 self.minutes.text = String(format: "%02d", minutes)
                 self.sec.text = String(format: "%02d", sec)
                 self.circle.drawCircle(value: self.count)
-                if self.count >= self.max { Timer.invalidate() }
+                if self.count >= self.max {
+                    Timer.invalidate()
+                    self.playSound(name: "Chime1", type: "wav")
+                }
                 self.count += 0.001
             }
+            playSound(name: "Chime1", type: "wav")
         }
     }
     
@@ -47,6 +52,7 @@ class ViewController: UIViewController {
     private var count:Double = 0
     private var max:Double = 0.0
     private let dataList = ["1", "3", "15", "30", "45", "60"]
+    private var bell:AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,4 +103,17 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
         return label
     }
     
+}
+
+extension ViewController: AVAudioPlayerDelegate {
+    func playSound(name: String, type: String) {
+        guard let path = Bundle.main.path(forResource: name, ofType: type) else { return }
+        do {
+            bell = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+            bell?.delegate = self
+            bell?.play()
+        } catch {
+            print("sound error.")
+        }
+    }
 }
