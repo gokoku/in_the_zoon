@@ -44,6 +44,10 @@ class CircleView: UIView {
         preRate = rate
     }
     
+    func clear() {
+        drawValueCircle(rate: 0)
+    }
+    
     func drawBaseCircle() {
          let shapeFrame = CGRect.init(x: 0, y: 0, width: self.frame.width, height: self.frame.height)
          caShapeLayerForBase.frame = shapeFrame
