@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CountDownTimer.xcodeproj">
+      location = "self:/Users/george/xcode/CountDownTimer/InTheZoon.xcodeproj">
    </FileRef>
 </Workspace>

@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     @IBAction func start(_ sender: Any) {
         if !myTimer.isValid {
-            clear()
+            clear(count: self.count)
             myTimer = Timer.scheduledTimer(withTimeInterval: 0.001, repeats: true) {(Timer) -> Void in
                 let minutes = Int(self.count / 60)
                 let sec = Int(self.count) % 60
@@ -34,7 +34,6 @@ class ViewController: UIViewController {
                 }
                 self.count += 0.001
             }
-            playSound(name: "Chime1", type: "wav")
         }
     }
     
@@ -51,7 +50,7 @@ class ViewController: UIViewController {
     private var myTimer = Timer()
     private var count:Double = 0
     private var max:Double = 0.0
-    private let dataList = ["1", "3", "15", "30", "45", "60"]
+    private let dataList = ["3", "15", "30", "45", "60"]
     private var bell:AVAudioPlayer?
     
     override func viewDidLoad() {
@@ -66,8 +65,8 @@ class ViewController: UIViewController {
         circle.drawBaseCircle()
     }
     
-    private func clear() {
-        self.count = 0
+    private func clear(count: Double = 0) {
+        self.count = count
         self.minutes.text = "00"
         self.sec.text = "00"
         myTimer.invalidate()

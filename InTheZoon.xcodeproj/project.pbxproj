@@ -13,10 +13,11 @@
 		5E61D35C23B2038600684C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E61D35A23B2038600684C4B /* Main.storyboard */; };
 		5E61D35E23B203AB00684C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E61D35D23B203AB00684C4B /* Assets.xcassets */; };
 		5E61D36123B203AB00684C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E61D35F23B203AB00684C4B /* LaunchScreen.storyboard */; };
-		5E61D36C23B203AB00684C4B /* CountDownTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D36B23B203AB00684C4B /* CountDownTimerTests.swift */; };
-		5E61D37723B203AB00684C4B /* CountDownTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D37623B203AB00684C4B /* CountDownTimerUITests.swift */; };
+		5E61D36C23B203AB00684C4B /* InTheZoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D36B23B203AB00684C4B /* InTheZoonTests.swift */; };
+		5E61D37723B203AB00684C4B /* InTheZoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D37623B203AB00684C4B /* InTheZoonUITests.swift */; };
 		5E61D38523B204E500684C4B /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61D38423B204E500684C4B /* CircleView.swift */; };
 		5E750A4623B3381C00852E03 /* Chime1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E750A4523B3381C00852E03 /* Chime1.wav */; };
+		5EF873C423B43A2100508384 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF873C323B43A2100508384 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E61D35123B2038500684C4B /* CountDownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E61D35123B2038500684C4B /* InTheZoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTheZoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E61D35423B2038500684C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E61D35623B2038600684C4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5E61D35823B2038600684C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,14 +46,15 @@
 		5E61D35D23B203AB00684C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E61D36023B203AB00684C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E61D36223B203AB00684C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E61D36723B203AB00684C4B /* CountDownTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E61D36B23B203AB00684C4B /* CountDownTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownTimerTests.swift; sourceTree = "<group>"; };
+		5E61D36723B203AB00684C4B /* InTheZoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InTheZoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E61D36B23B203AB00684C4B /* InTheZoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTheZoonTests.swift; sourceTree = "<group>"; };
 		5E61D36D23B203AB00684C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E61D37223B203AB00684C4B /* CountDownTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E61D37623B203AB00684C4B /* CountDownTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownTimerUITests.swift; sourceTree = "<group>"; };
+		5E61D37223B203AB00684C4B /* InTheZoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InTheZoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E61D37623B203AB00684C4B /* InTheZoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTheZoonUITests.swift; sourceTree = "<group>"; };
 		5E61D37823B203AB00684C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E61D38423B204E500684C4B /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		5E750A4523B3381C00852E03 /* Chime1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chime1.wav; sourceTree = "<group>"; };
+		5EF873C323B43A2100508384 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +85,10 @@
 		5E61D34823B2038500684C4B = {
 			isa = PBXGroup;
 			children = (
-				5E61D35323B2038500684C4B /* CountDownTimer */,
-				5E61D36A23B203AB00684C4B /* CountDownTimerTests */,
-				5E61D37523B203AB00684C4B /* CountDownTimerUITests */,
+				5EF873C323B43A2100508384 /* Default-568h@2x.png */,
+				5E61D35323B2038500684C4B /* InTheZoon */,
+				5E61D36A23B203AB00684C4B /* InTheZoonTests */,
+				5E61D37523B203AB00684C4B /* InTheZoonUITests */,
 				5E61D35223B2038500684C4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +96,14 @@
 		5E61D35223B2038500684C4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E61D35123B2038500684C4B /* CountDownTimer.app */,
-				5E61D36723B203AB00684C4B /* CountDownTimerTests.xctest */,
-				5E61D37223B203AB00684C4B /* CountDownTimerUITests.xctest */,
+				5E61D35123B2038500684C4B /* InTheZoon.app */,
+				5E61D36723B203AB00684C4B /* InTheZoonTests.xctest */,
+				5E61D37223B203AB00684C4B /* InTheZoonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E61D35323B2038500684C4B /* CountDownTimer */ = {
+		5E61D35323B2038500684C4B /* InTheZoon */ = {
 			isa = PBXGroup;
 			children = (
 				5E750A4023B337C600852E03 /* Sounds */,
@@ -113,25 +116,25 @@
 				5E61D35F23B203AB00684C4B /* LaunchScreen.storyboard */,
 				5E61D36223B203AB00684C4B /* Info.plist */,
 			);
-			path = CountDownTimer;
+			path = InTheZoon;
 			sourceTree = "<group>";
 		};
-		5E61D36A23B203AB00684C4B /* CountDownTimerTests */ = {
+		5E61D36A23B203AB00684C4B /* InTheZoonTests */ = {
 			isa = PBXGroup;
 			children = (
-				5E61D36B23B203AB00684C4B /* CountDownTimerTests.swift */,
+				5E61D36B23B203AB00684C4B /* InTheZoonTests.swift */,
 				5E61D36D23B203AB00684C4B /* Info.plist */,
 			);
-			path = CountDownTimerTests;
+			path = InTheZoonTests;
 			sourceTree = "<group>";
 		};
-		5E61D37523B203AB00684C4B /* CountDownTimerUITests */ = {
+		5E61D37523B203AB00684C4B /* InTheZoonUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5E61D37623B203AB00684C4B /* CountDownTimerUITests.swift */,
+				5E61D37623B203AB00684C4B /* InTheZoonUITests.swift */,
 				5E61D37823B203AB00684C4B /* Info.plist */,
 			);
-			path = CountDownTimerUITests;
+			path = InTheZoonUITests;
 			sourceTree = "<group>";
 		};
 		5E750A4023B337C600852E03 /* Sounds */ = {
@@ -145,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E61D35023B2038500684C4B /* CountDownTimer */ = {
+		5E61D35023B2038500684C4B /* InTheZoon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E61D37B23B203AB00684C4B /* Build configuration list for PBXNativeTarget "CountDownTimer" */;
+			buildConfigurationList = 5E61D37B23B203AB00684C4B /* Build configuration list for PBXNativeTarget "InTheZoon" */;
 			buildPhases = (
 				5E61D34D23B2038500684C4B /* Sources */,
 				5E61D34E23B2038500684C4B /* Frameworks */,
@@ -157,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = CountDownTimer;
+			name = InTheZoon;
 			productName = CountDownTimer;
-			productReference = 5E61D35123B2038500684C4B /* CountDownTimer.app */;
+			productReference = 5E61D35123B2038500684C4B /* InTheZoon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E61D36623B203AB00684C4B /* CountDownTimerTests */ = {
+		5E61D36623B203AB00684C4B /* InTheZoonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E61D37E23B203AB00684C4B /* Build configuration list for PBXNativeTarget "CountDownTimerTests" */;
+			buildConfigurationList = 5E61D37E23B203AB00684C4B /* Build configuration list for PBXNativeTarget "InTheZoonTests" */;
 			buildPhases = (
 				5E61D36323B203AB00684C4B /* Sources */,
 				5E61D36423B203AB00684C4B /* Frameworks */,
@@ -175,14 +178,14 @@
 			dependencies = (
 				5E61D36923B203AB00684C4B /* PBXTargetDependency */,
 			);
-			name = CountDownTimerTests;
+			name = InTheZoonTests;
 			productName = CountDownTimerTests;
-			productReference = 5E61D36723B203AB00684C4B /* CountDownTimerTests.xctest */;
+			productReference = 5E61D36723B203AB00684C4B /* InTheZoonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E61D37123B203AB00684C4B /* CountDownTimerUITests */ = {
+		5E61D37123B203AB00684C4B /* InTheZoonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E61D38123B203AB00684C4B /* Build configuration list for PBXNativeTarget "CountDownTimerUITests" */;
+			buildConfigurationList = 5E61D38123B203AB00684C4B /* Build configuration list for PBXNativeTarget "InTheZoonUITests" */;
 			buildPhases = (
 				5E61D36E23B203AB00684C4B /* Sources */,
 				5E61D36F23B203AB00684C4B /* Frameworks */,
@@ -193,9 +196,9 @@
 			dependencies = (
 				5E61D37423B203AB00684C4B /* PBXTargetDependency */,
 			);
-			name = CountDownTimerUITests;
+			name = InTheZoonUITests;
 			productName = CountDownTimerUITests;
-			productReference = 5E61D37223B203AB00684C4B /* CountDownTimerUITests.xctest */;
+			productReference = 5E61D37223B203AB00684C4B /* InTheZoonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E61D34C23B2038500684C4B /* Build configuration list for PBXProject "CountDownTimer" */;
+			buildConfigurationList = 5E61D34C23B2038500684C4B /* Build configuration list for PBXProject "InTheZoon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E61D35023B2038500684C4B /* CountDownTimer */,
-				5E61D36623B203AB00684C4B /* CountDownTimerTests */,
-				5E61D37123B203AB00684C4B /* CountDownTimerUITests */,
+				5E61D35023B2038500684C4B /* InTheZoon */,
+				5E61D36623B203AB00684C4B /* InTheZoonTests */,
+				5E61D37123B203AB00684C4B /* InTheZoonUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +252,7 @@
 				5E61D36123B203AB00684C4B /* LaunchScreen.storyboard in Resources */,
 				5E750A4623B3381C00852E03 /* Chime1.wav in Resources */,
 				5E61D35E23B203AB00684C4B /* Assets.xcassets in Resources */,
+				5EF873C423B43A2100508384 /* Default-568h@2x.png in Resources */,
 				5E61D35C23B2038600684C4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E61D36C23B203AB00684C4B /* CountDownTimerTests.swift in Sources */,
+				5E61D36C23B203AB00684C4B /* InTheZoonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E61D37723B203AB00684C4B /* CountDownTimerUITests.swift in Sources */,
+				5E61D37723B203AB00684C4B /* InTheZoonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		5E61D36923B203AB00684C4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E61D35023B2038500684C4B /* CountDownTimer */;
+			target = 5E61D35023B2038500684C4B /* InTheZoon */;
 			targetProxy = 5E61D36823B203AB00684C4B /* PBXContainerItemProxy */;
 		};
 		5E61D37423B203AB00684C4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E61D35023B2038500684C4B /* CountDownTimer */;
+			target = 5E61D35023B2038500684C4B /* InTheZoon */;
 			targetProxy = 5E61D37323B203AB00684C4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -452,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9PVL6Z4HG;
-				INFOPLIST_FILE = CountDownTimer/Info.plist;
+				INFOPLIST_FILE = InTheZoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.people.CountDownTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y9PVL6Z4HG;
-				INFOPLIST_FILE = CountDownTimer/Info.plist;
+				INFOPLIST_FILE = InTheZoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.people.CountDownTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -500,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountDownTimer.app/CountDownTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InTheZoon.app/InTheZoon";
 			};
 			name = Debug;
 		};
@@ -522,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountDownTimer.app/CountDownTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InTheZoon.app/InTheZoon";
 			};
 			name = Release;
 		};
@@ -569,7 +573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E61D34C23B2038500684C4B /* Build configuration list for PBXProject "CountDownTimer" */ = {
+		5E61D34C23B2038500684C4B /* Build configuration list for PBXProject "InTheZoon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E61D37923B203AB00684C4B /* Debug */,
@@ -578,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E61D37B23B203AB00684C4B /* Build configuration list for PBXNativeTarget "CountDownTimer" */ = {
+		5E61D37B23B203AB00684C4B /* Build configuration list for PBXNativeTarget "InTheZoon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E61D37C23B203AB00684C4B /* Debug */,
@@ -587,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E61D37E23B203AB00684C4B /* Build configuration list for PBXNativeTarget "CountDownTimerTests" */ = {
+		5E61D37E23B203AB00684C4B /* Build configuration list for PBXNativeTarget "InTheZoonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E61D37F23B203AB00684C4B /* Debug */,
@@ -596,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E61D38123B203AB00684C4B /* Build configuration list for PBXNativeTarget "CountDownTimerUITests" */ = {
+		5E61D38123B203AB00684C4B /* Build configuration list for PBXNativeTarget "InTheZoonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E61D38223B203AB00684C4B /* Debug */,
