@@ -31,9 +31,12 @@ class ViewController: UIViewController {
                 if self.count >= self.max {
                     Timer.invalidate()
                     self.playSound(name: "Chime1", type: "wav")
+                } else {
+                    self.count += 0.001
                 }
-                self.count += 0.001
             }
+        } else {
+            clear(stop: false)
         }
     }
     
@@ -61,15 +64,18 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        UIApplication.shared.isIdleTimerDisabled = true // 画面ロックしない
         circle.setMinMax(min: 0.0, max: max)
         circle.drawBaseCircle()
     }
-    
-    private func clear(count: Double = 0) {
+    override func viewWillDisappear(_ animated: Bool) {
+        UIApplication.shared.isIdleTimerDisabled = false // 画面ロック戻す
+    }
+    private func clear(count: Double = 0, stop: Bool = true) {
         self.count = count
         self.minutes.text = "00"
         self.sec.text = "00"
-        myTimer.invalidate()
+        if stop { myTimer.invalidate() }
         circle.clear()
     }
 }
